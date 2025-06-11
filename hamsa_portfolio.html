@@ -165,14 +165,12 @@
             width: 300px;
             height: 300px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 4rem;
-            color: white;
+            object-fit: cover;
+            object-position: center;
             margin: 0 auto;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            display: block;
+            border: 4px solid white;
         }
 
         .about-text {
@@ -494,9 +492,7 @@
         <div class="container">
             <h2 class="section-title fade-in">About Me</h2>
             <div class="about-content">
-                <div class="about-image fade-in">
-                    HA
-                </div>
+               <img src="hamsa-photo.jpg" alt="Hamsa Abdikarim" class="about-image fade-in">
                 <div class="about-text fade-in">
                     <p>I'm a dedicated Computer Science student at the University of Minnesota, expected to graduate in December 2026. My journey in technology began with a curiosity about how things work and has evolved into a passion for creating solutions that make a difference.</p>
                     
